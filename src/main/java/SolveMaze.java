@@ -10,11 +10,12 @@ import edu.illinois.cs.cs125.lib.mazemaker.Maze;
 @SuppressWarnings("checkstyle:emptyblock")
 public class SolveMaze {
 
-    /**
-     * Implement your maze solving algorithm in the main method below.
-     *
-     * @param unused unused input arguments
-     */
+
+        /**
+         * Implement your maze solving algorithm in the main method below.
+         *
+         * @param unused unused input arguments
+         **/
 
     public static void main(final String[] unused) {
         /*
@@ -34,7 +35,17 @@ public class SolveMaze {
          * Feel free to adjust this number if you experiment with other mazes.
          */
         for (int step = 0; step < 1000; step++) {
-            // Implement your maze solving algorithm here
+            while (!isFinished()) {
+                if (turnLeft) == true {
+                    move;
+                }
+                if (cantMove() == false);
+                Turnright();
+                if (move() == true) {
+                    Turnright;
+                }
+                move;
+                // Implement your maze solving algorithm here
         }
 
         if (maze.isFinished()) {
